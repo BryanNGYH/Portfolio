@@ -1,0 +1,90 @@
+baseURL: "https://bryanng.netlify.app"
+languageCode: en-us
+title: BRYAN NG
+theme: PaperMod
+
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+  
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 20
+ 
+
+params:
+  # theme
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  defaultTheme: default
+
+  title: Bryan Ng Yaw Huei
+  description: Hello World! I'm **Bryan**, a Malaysian student majoring in Aritificial Intelligence at Kyushu Institute of Technology. I will update my page from to time when I have completed a new project. I hope you will be interested in my Data Science portfolio and I will definitely appreciate any feedbacks regarding my projects. Feel free to reach out to me if you are interested in collaborating or if you would like to have a coffee talk!
+  keywords : [Portfolio, Data Science, Artificial Intelligence]
+
+  # for enchanced SEO
+  env: production
+
+  # profile-mode
+  profileMode:
+    enabled: true
+    title: Hello World👋🏼
+    subtitle: I'm **Bryan**, a Malaysian student majoring in Aritificial Intelligence at Kyushu Institute of Technology. I will update my page from to time when I have completed a new project. I hope you will be interested in my Data Science portfolio and I will definitely appreciate any feedbacks regarding my projects. Feel free to reach out to me if you are interested in collaborating or if you would like to have a coffee talk!
+    imageUrl: "home/profile_pic.jpg"
+    imageWidth: 230
+    imageHeight: 250
+   
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:bryanng1210@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/bryan-ng-yaw-huei"
+    - name: "github"
+      url: "https://github.com/BryanNGYH"
+
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
