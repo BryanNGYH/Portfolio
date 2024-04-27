@@ -60,6 +60,7 @@ As expected, XG Boost Regressor is the best model and outperformed (Accuracy) ot
     4. Lasso Regression - -24.43
 
 ## Productionization of the model
+![UI](/projects/house-price-prediction/UI_picture.png)
 In the last step, I used the pickled model and exported it to a Python Flask server. The server is hosted on a local web server and provides HTTP endpoints to handle incoming requests.
 
 Furthermore, I have also built a simple website using HTML, CSS and JavaScript which allows users to input entries and make an estimation (prediction) of house prices with the model running on FLask. With GET and POST requests to the Flask server, users can key in neccesary entries and gain access to the list of locations.
