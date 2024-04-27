@@ -43,10 +43,11 @@ params:
   profileMode:
     enabled: true
     title: Hello World👋🏼
-    subtitle: I'm **Bryan**, a Malaysian student majoring in Aritificial Intelligence at Kyushu Institute of Technology. I will update my page from to time when I have completed a new project. I hope you will be interested in my Data Science portfolio and I will definitely appreciate any feedbacks regarding my projects. Feel free to reach out to me if you are interested in collaborating or if you would like to have a coffee talk!
+    subtitle: I'm **Bryan**, a Malaysian student majoring in Aritificial Intelligence at Kyushu Institute of Technology. I will update my page periodically when I have completed a new project. I hope you will be interested in my Data Science portfolio and I will definitely appreciate any feedbacks regarding my projects. Feel free to reach out to me if you are interested in collaborating or if you would like to have a coffee talk!
     imageUrl: "home/profile_pic1.jpg"
     imageWidth: 300
     imageHeight: 300
+
    
 
   # List View
