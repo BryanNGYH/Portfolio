@@ -33,7 +33,7 @@ params:
   defaultTheme: default
 
   title: Bryan Ng Yaw Huei
-  description: Hello World! I'm **Bryan**, a Malaysian student majoring in Artificial Intelligence at Kyushu Institute of Technology. I will update my page from to time when I have completed a new project. I hope you will be interested in my Data Science portfolio and I will definitely appreciate any feedbacks regarding my projects. Feel free to reach out to me if you are interested in collaborating or if you would like to have a coffee talk!
+  description: Welcome to my website!
   keywords : [Portfolio, Data Science, Artificial Intelligence]
 
   # for enchanced SEO
