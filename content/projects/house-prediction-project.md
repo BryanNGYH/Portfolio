@@ -18,10 +18,10 @@ Furthermore, I built a website using HTML, CSS, and JavaScript in which users ca
 ## Data Preprocessing
 To train the Machine Learning model, I preprocessed and cleaned the data to ensure the model can accurately predict with consistent performance. Here are the steps that I have taken:-
 
-- Check for duplicated data input and remove them
+- Checked for duplicated data input and removed them
 - Used mean imputation to fill in missing values for the 'balcony' column
-- Remove missing values that are less than 1% of the total dataset
-- Feature engineered 'total_sqft' which has inconsistent metrics:-
+- Removed missing values that are less than 1% of the total dataset
+- Feature-engineered 'total_sqft' which has inconsistent metrics:-
     1. Replaced range values with mean value of the min and max value
     2. Converted other metrics into square feet 
 - Feature-engineered 'bhk' columns to extract the number of rooms

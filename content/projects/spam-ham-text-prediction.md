@@ -60,13 +60,13 @@ Both models had high scores on training sets.
 2. **Multinomial Naive Bayes** - 0.99
 
 On test sets, both models performed well too.
-1. Linear Support Vector Classifier:-
+1. **Linear Support Vector Classifier**:-
     - Accuracy Score - 98.0
     - Precision Score - 96.3
     - Recall Score - 89.66
     - F1 Score - 92.86
     
-2. Multinomial Naive Bayes:-
+2. **Multinomial Naive Bayes**:-
     - Accuracy Score - 97.58
     - Precision Score - 88.96
     - Recall Score - 94.48
