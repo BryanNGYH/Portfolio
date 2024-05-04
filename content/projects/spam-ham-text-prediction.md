@@ -11,6 +11,13 @@ cover:
 --- 
 ### 🔗 [Github](https://github.com/BryanNGYH/Spam-Ham-Detection)
 
+## Description
+ In this project, I utilized Natural Language Processing(NLP) techniques to classify spam messages and texts. Furthermore, I built a simple web app using Streamlit which allows users to post their messages and identify spam messages.
+
+## Tools and Resources
+Python Version: 3.11\
+Packages: Pandas, Numpy, Sklearn, nltk, wordcloud, Matplotlib, Seaborn, re, Streamlit, Pickle\
+Dataset : [SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 
 ## Data Preprocessing
 To train the Machine Learning model, I preprocessed and cleaned the data to ensure the model can accurately predict with consistent performance. Here are the steps that I have taken:-
