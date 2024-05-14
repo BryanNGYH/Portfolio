@@ -1,5 +1,5 @@
 ---
-title: "House Prediction Project"
+title: "House Price Prediction Project"
 description: "Using Machine Learning to make a smart purchase (not getting a huge lump of debt)"
 dateString: March 2024 
 draft: false
